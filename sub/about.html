@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiC</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/common/favicon.png">
+    <!--css-->
+    <link rel="stylesheet" href="../css/style_sub.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <!--js-->
+    <script src="../js/jquery-3.6.2.min.js"></script>
+    <script src="../js/slick.js"></script>
+    <script src="../js/sub_script.js"></script>
+    <!--font-->
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css'>
+    <link rel="stylesheet" href="https://use.typekit.net/lvy0wkd.css">
+    <!--나귀엽냐옹-->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'qyc7vpv',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <!--*gnb_S(페이지공통)-->
+    <div id="gnb_wrap"> <!--전체너비-->
+        <div class="gnb_bar"> <!--1320,가운데-->
+            <h1 class="gnb_logo">
+                <a href="../index.html"><img src="../images/common/logo_signature.png" alt="signature_logo"></a>
+            </h1>
+            <ul class="gnb">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="ciclife.html">CiC:LIFE</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+        </div>
+        <div class="submenu_wrap">
+            <div class="submenu">
+                <!--about_sub-->
+                <div class="img_wrap">
+                    <a href="../index.html"><img src="../images/common/cat_head.gif" alt=""></a>
+                </div>
+                <ul> <!--cic life_sub-->
+                    <li><a href="ciclife.html">NEWS</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="magazine.html">MAGAZINE</a></li>
+                </ul>
+                <ul> <!--product_sub-->
+                    <li><a href="product.html#product_section1_wrap">BESTSELLER</a></li>
+                    <li><a href="product.html#product_section2">LINE-UP</a></li>
+                </ul>
+                <ul> <!--store_sub-->
+                    <li><a href="store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                    <li><a href="store.html#store_section2">CiC MALL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mobile_menu">
+        <div class="menu_btn"><a href="javascript:return false;">
+                <img src="../images/common/btn/btn_plus1.png">
+            </a>
+        </div>
+        <div class="menu_bg"></div>
+        <div class="sidebar_menu">
+            <div class="close_btn"><a href="javascript:return false;">
+                    <img src="../images/common/btn/btn_close1.png">
+                </a>
+            </div>
+            <div class="menu_wrap">
+                <p><a href="../index.html">HOME</a></p>
+                <p><a href="about.html">ABOUT</a></p>
+                <p><a href="ciclife.html">CiC LIFE</p></a>
+                <ul>
+                    <li><a href="ciclife.html">NEWS</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="magazine.html">MAGAZINE</a></li>
+                </ul>
+                <p><a href="product.html">PRODUCT</p></a>
+                <ul>
+                    <li><a href="product.html#product_section1_wrap">BESTSELLER</a></li>
+                    <li><a href="product.html#product_section2">LINE-UP</a></li>
+                </ul>
+                <p><a href="store.html">STORE</p></a>
+                <ul>
+                    <li><a href="store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                    <li><a href="store.html#store_section2">CiC MALL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--*header(페이지별)-->
+    <div id="about_header"> <!--1320,center-->
+        <div class="about_header_banner">
+            <div class="about_header_banner_inner">
+                <p>당신의 사랑스런 고양이와 <br>
+                    고양이를 좋아하는 사람 모두 행복하게</p>
+                <p>Cat & Human Lifestyle brand</p>
+                <p>CiC</p>
+            </div>
+        </div> <!--bg-->
+    </div>
+    <div id="about_section1_wrap"> <!--전체너비, 배경색-->
+        <div class="about_section1">
+            <p class="title">BRAND STORY</p>
+            <div class="about_section1_inner">
+                <h3>고양이에 관한 절대명제</h3>
+                <h1 class="ff_font">Cat is Cute!</h1>
+                <h2>‘고양이는 귀엽다!(cat is cute!)’ </h2>
+                <p>‘CiC’는 고양이를 귀여워 하며, 좋아하는 사람들이 모여
+                    만들어진 캣 & 휴먼 라이프스타일 브랜드입니다. <br>
+                    고양이 간식과 사료, 장난감, 샴푸 등의 반려묘 용품과
+                    고양이를 좋아하는 사람들을 위한 패션, 잡화, 문구, 생활용품,
+                    홈데코 등 다양한 삼품들을 취급하고 있습니다.<br>
+                    <br>
+                    반려묘와 함께인 집사님도,<br>
+                    유투브를 열혈 시청하시는 랜선 집사님도, <br>
+                    사랑스런 고양이와 고양이를 좋아하는 사람<br>
+                    모두가 행복할 수 있도록 노력하겠습니다.
+                </p>
+            </div>
+            <div class="about_blob1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="225.59" height="229.34" viewBox="0 0 225.59 229.34">
+                    <g id="blob_5-5-15796" transform="matrix(-0.799, -0.602, 0.602, -0.799, 122.109, 229.34)">
+                        <path id="패스_110" data-name="패스 110"
+                            d="M138.842,130.731Q111.8,171.948,55.149,171.948T.041,91.1Q1.586,10.251,58.755,1.373T140.9,41Q165.882,89.514,138.842,130.731Z"
+                            transform="translate(0 0)" fill="#fff7ee" />
+                    </g>
+                </svg>
+            </div>
+            <div class="about_blob2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="95.824" height="85.207" viewBox="0 0 95.824 85.207">
+                    <g id="blob_5-5-15796" transform="translate(0 85.207) rotate(-90)">
+                        <path id="패스_110" data-name="패스 110"
+                            d="M77.374,72.854Q62.306,95.824,30.734,95.824T.023,50.768q.861-45.056,32.72-50t45.78,22.086Q92.443,49.885,77.374,72.854Z"
+                            transform="translate(0 0)" fill="#a19193" />
+                    </g>
+                </svg>
+            </div>
+            <div class="about_blob3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="236.618" height="210.403" viewBox="0 0 236.618 210.403">
+                    <g id="blob_5-5-15796" transform="translate(-108.834 285.323) rotate(-90)">
+                        <path id="패스_110" data-name="패스 110"
+                            d="M265.982,288.734q-37.209,56.719-115.17,56.719T74.977,234.2q2.126-111.256,80.8-123.472t113.044,54.537Q303.191,232.015,265.982,288.734Z"
+                            transform="translate(0 0)" fill="#f2e2ce" />
+                    </g>
+                </svg>
+            </div>
+            <div class="about_blob4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="124.157" height="126.221" viewBox="0 0 124.157 126.221">
+                    <g id="blob_5-5-15796" transform="matrix(-0.799, -0.602, 0.602, -0.799, 61.541, 258.228)">
+                        <path id="패스_110" data-name="패스 110"
+                            d="M151.335,180.784q-14.882,22.684-46.062,22.684t-30.33-44.5q.85-44.5,32.314-49.382T152.468,131.4Q166.216,158.1,151.335,180.784Z"
+                            transform="translate(0 0)" fill="#ffc4ba" />
+                    </g>
+                </svg>
+
+            </div>
+        </div>
+    </div><!--section1_E-->
+    <div id="about_section2_wrap"> <!--전체배경색-->
+        <div class="cat_gif">
+            <img src="../images/common/cat.gif" alt="">
+        </div>
+        <div class="about_section2_box">
+            <h1>FOR THEM</h1>
+            <div class="about_section2_box_inner">
+                <ul class="for_them">
+                    <li>
+                        <div>
+                            <img src="../images/about/for_img1.png" alt="">
+                        </div>
+                        <p>현재 반려묘를 키우고있고,<br>
+                            고양이 용품이 필요한 집사</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="../images/about/for_img3.png" alt="">
+                        </div>
+                        <p>현재 고양이를 키우지 않지만, <br>
+                            고양이를 좋아하는 랜선집사
+                        </p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="../images/about/for_img2.png" alt="">
+                        </div>
+                        <p>귀여운 문구잡화, <br>
+                            고양이 캐릭터 굿즈를 <br>
+                            갖고싶은 사람</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div><!--section2_E-->
+    <div id="about_section3">
+        <h1> BRAND IDENTITY</h1>
+        <div class="about_section3_inner">
+            <ul class="bi">
+                <li class="symbol">
+                    <p class="bi_title">Main Symbol</p>
+                    <div class="img_wrap">
+                        <img src="../images/about/symbol.png" alt="">
+                    </div>
+                </li>
+                <li class="symbol2">
+                    <div class="img_wrap">
+                        <img src="../images/about/symbol2.png" alt="">
+                    </div>
+                    <p class="bi_text">CiC라는 브랜드명을
+                        고양이의 눈과 입 모양의 선으로 표현한 캐릭터입니다<br>
+                        키치하고 아기자기한 느낌의 로고는 cic의 성격을 함축하며 BI를 보조해주는 역할을 합니다.</p>
+                </li>
+                <li class="logo_type">
+                    <p class="bi_title">Logotype</p>
+                    <div class="img_wrap">
+                        <img src="../images/about/logotype.png" alt="">
+                    </div>
+                </li>
+                <li class="signature">
+                    <p class="bi_title">Signature</p>
+                    <div class="img_wrap">
+                        <img src="../images/about/signature.png" alt="">
+                    </div>
+                </li>
+            </ul>
+            <div class="variation">
+                <p class="bi_title">Variation</p>
+                <ul>
+                    <li>
+                        <img src="../images/about/variation1.png" alt="">
+                        <p>심볼 컬러</p>
+                    </li>
+                    <li>
+                        <img src="../images/about/variation2.png" alt="">
+                        <p>시그니처 레이아웃&컬러</p>
+                    </li>
+                    <li>
+                        <img src="../images/about/variation3.png" alt="">
+                        <p>심볼 단순화</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="color">
+                <div>
+                    <p class="bi_title">Color</p>
+                </div>
+                <ul>
+                    <li>MAIN 01 <br> #F2E2CE</li>
+                    <li>MAIN 02 <br> #F79F8F</li>
+                    <li>MAIN 03 <br> #A19193</li>
+                    <li>SUB 01<br> #FFF7EE</li>
+                    <li>SUB 02<br> #333333</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--*footer_S-->
+    <div id="footer_wrap">
+        <div class="top_btn_box">
+            <a href="about.html#about_header"><img src="../images/common/btn/btn_top.png" alt="탑버튼"
+                    class="animate__jello"></a>
+        </div>
+        <div class="footer_bg_wrap"> <!--footer_배경박스-->
+            <div class="footer_bg">
+            </div>
+            <div class="bg_color">
+            </div>
+            <div class="footer_inner"> <!--가운데-->
+                <div class="footer_inner_left">
+                    <p><img src="../images/common/footer/logo_text_w.png" alt="하단로고"></p>
+                    <p>© CiC . All Rights Reserved.</p>
+                    <ul class="sns_link animate__headShake">
+                        <li>
+                            <a href="#">
+                                <img src="../images/common/footer/facebook_w.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/catiscute_official/" target="_blank">
+                                <img src="../images/common/footer/insta_w.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/common/footer/youtube_w.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_inner_right">
+                    <p><a href="../index.html">HOME</a></p>
+                    <p><a href="about.html">ABOUT</a></p>
+                    <p><a href="ciclife.html">CiC LIFE</p></a>
+                    <ul>
+                        <li><a href="ciclife.html">NEWS</a></li>
+                        <li><a href="event.html">EVENT</a></li>
+                        <li><a href="magazine.html">MAGAZINE</a></li>
+                    </ul>
+                    <p><a href="product.html">PRODUCT</p></a>
+                    <ul>
+                        <li><a href="product.html#product_section1_wrap">BESTSELLER</a></li>
+                        <li><a href="product.html#product_section2">LINE-UP</a></li>
+                    </ul>
+                    <p><a href="store.html">STORE</p></a>
+                    <ul>
+                        <li><a href="store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                        <li><a href="store.html#store_section2">CiC MALL</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*footer_E-->
+</body>
+
+</html>

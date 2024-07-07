@@ -1,471 +1,501 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="ko">
 
 <head>
-	<!-- Mobile Specific Meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Favicon-->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<!-- Author Meta -->
-	<meta name="author" content="codepixer">
-	<!-- Meta Description -->
-	<meta name="description" content="">
-	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
-	<!-- meta character set -->
-	<meta charset="UTF-8">
-	<!-- Site Title -->
-	<title>YANG SEONJU - Design Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiC</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/common/favicon.png">
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!--js-->
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/script.js"></script>
+    <!--font-->
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css'>
+    <link rel="stylesheet" href="https://use.typekit.net/lvy0wkd.css">
+    <!--나귀엽냐옹-->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'qyc7vpv',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.fade').slick({
+                setting- name: setting - value
+          });
+        });
+    </script>
 
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-	<!--
-			CSS
-			============================================= -->
-	<link rel="stylesheet" href="css/linearicons.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="css/nice-select.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/main.css">
-	<!--
-			font
-			============================================= -->
-	<link rel="stylesheet" href="https://use.typekit.net/lxr6rfn.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
 
-	<script>
-		(function (d) {
-			var config = {
-				kitId: 'tnf4rkz',
-				scriptTimeout: 3000,
-				async: true
-			},
-				h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
-		})(document);
-	</script>
 </head>
 
 <body>
+    <!--*gnb_S(페이지공통)-->
+    <div id="gnb_wrap"> <!--전체너비-->
+        <div class="gnb_bar"> <!--1320,가운데-->
+            <h1 class="gnb_logo">
+                <a href="index.html"><img src="images/common/logo_signature.png" alt="signature_logo"></a>
+            </h1>
+            <ul class="gnb">
+                <li><a href="sub/about.html">ABOUT</a></li>
+                <li><a href="sub/ciclife.html">CiC<span class="false">:</span>LIFE</a></li>
+                <li><a href="sub/product.html">PRODUCT</a></li>
+                <li><a href="sub/store.html">STORE</a></li>
+            </ul>
+        </div>
+        <div class="submenu_wrap">
+            <div class="submenu">
+                <!--about_sub-->
+                <div class="img_wrap">
+                    <a href="index.html"><img src="../images/common/cat_head.gif" alt=""></a>
+                </div>
+                <ul> <!--cic life_sub-->
+                    <li><a href="sub/ciclife.html">NEWS</a></li>
+                    <li><a href="sub/event.html">EVENT</a></li>
+                    <li><a href="sub/magazine.html">MAGAZINE</a></li>
+                </ul>
+                <ul> <!--product_sub-->
+                    <li><a href="sub/product.html#product_section1_wrap">BESTSELLER</a></li>
+                    <li><a href="sub/product.html#product_section2">LINE-UP</a></li>
+                </ul>
+                <ul> <!--store_sub-->
+                    <li><a href="sub/store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                    <li><a href="sub/store.html#store_section2">CiC MALL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--*header_S-->
+    <div id="header_wrap"> <!--전체너비,배경색-->
+        <div class="svg_blob1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.851 94.06">
+                <g id="blob_5-5-15796" transform="translate(33.727 94.06) rotate(-121)">
+                    <path id="패스_110" data-name="패스 110"
+                        d="M59.464,55.99Q47.884,73.643,23.62,73.643T.017,39.017Q.679,4.39,25.164.588T60.347,17.562Q71.045,38.338,59.464,55.99Z" />
+                </g>
+            </svg>
+        </div>
+        <div class="svg_blob3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.252 40.238">
+                <g id="blob_5-5-15796" transform="translate(0 40.238) rotate(-90)">
+                    <path id="패스_110" data-name="패스 110"
+                        d="M36.54,34.405Q29.424,45.252,14.514,45.252T.011,23.975Q.417,2.7,15.463.361t21.619,10.43Q43.656,23.558,36.54,34.405Z" />
+                </g>
+            </svg>
+        </div>
+        <div class="svg_blob4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.747 71.923">
+                <g id="blob_5-5-15796" transform="matrix(-0.799, -0.602, 0.602, -0.799, 38.295, 71.923)">
+                    <path id="패스_110" data-name="패스 110"
+                        d="M43.542,41Q35.062,53.924,17.3,53.924T.013,28.57Q.5,3.215,18.426.431T44.188,12.859Q52.022,28.072,43.542,41Z" />
+                </g>
+            </svg>
+        </div>
+        <div class="svg_blob5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.252 40.238">
+                <g id="blob_5-5-15796" transform="translate(0 40.238) rotate(-90)">
+                    <path id="패스_110" data-name="패스 110"
+                        d="M36.54,34.405Q29.424,45.252,14.514,45.252T.011,23.975Q.417,2.7,15.463.361t21.619,10.43Q43.656,23.558,36.54,34.405Z" />
+                </g>
+            </svg>
+        </div>
 
-	<header id="header" id="home">
+        <div class="banner_wrap"> <!--1320너비,가운데-->
+            <div class="banner"> <!--main img_box-->
+                <div class="main_img1">
+                    <div class="slideshow_wrap">
+                        <div id="slideshow">
+                            <div>
+                                <img src="images/main/bn1.png">
+                            </div>
+                            <div>
+                                <img src="images/main/bn2-1.png">
+                            </div>
+                            <div>
+                                <img src="images/main/bn3.png">
+                            </div>
+                            <div>
+                                <img src="images/main/bn4.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img2">
+                        <div class="img3">
+                            <a href="sub/about.html">
+                                <p>About</p>
+                                <img src="images/main/btn_about2.png" alt="">
+                            </a>
+                        </div>
+                    </div>
 
-		<div class="container">
-			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo">
-					<a href="index.html"><img src="images/logo.png" alt="" title="" /></a>
-				</div>
-				<nav id="nav-menu-container">
-					<ul class="nav-menu">
-						<li class="menu-active"><a href="#home">Home</a></li>
-						<li><a href="#branding">Branding</a></li>
-						<li><a href="#gallery">Gallery</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#skill">Skill</a></li>
+                </div>
+                <div class="banner_inner"> <!--main text 모음-->
+                    <h1 class="cic_logo"><a href="javascript:return false;"><img src="images/common/logo_symbol.png"
+                                alt="cic_logo"></a></h1>
+                    <div class="slogan">
+                        <h3>고양이에 관한 절대명제</h3>
+                        <h1 class="ff_font">Cat is Cute!
+                            <div class="svg_blob2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.605 77.301">
+                                    <g id="blob_5-5-15796" transform="translate(87.633 28.373) rotate(128)">
+                                        <path id="패스_110" data-name="패스 110"
+                                            d="M58.7,42.077c-4.435,6.152-17.851,23.884-37.74,16.211-16.8-6.985-9.074-23.73-.5-26.354C6.123,24.094,12.708,4.718,26.658,4.155S46.376,10.17,57.8,22.868,66.034,31.908,58.7,42.077Z" />
+                                    </g>
+                                </svg>
+                            </div>
+                        </h1>
 
-					</ul>
-				</nav><!-- #nav-menu-container -->
-			</div>
-		</div>
-	</header><!-- #header -->
-
-
-	<!-- start home Area -->
-	<section class="banner-area" id="home">
-		<div class="container">
-			<div class="row fullscreen d-flex align-items-center justify-content-start">
-				<div class="banner-content-wrap">
-					<div class="banner-content col-lg-7">
-						<h6 class="text-white text-uppercase">2023 DESIGN PORTPOLIO</h6>
-						<h1 class="massilia">
-							YANG SEONJU <br> DESIGN PORTPOLIO
-						</h1>
-						<!-- <a href="#" class="primary-btn text-uppercase">ABOUT ME</a> -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End home Area -->
-
-
-
-
-
-
-	<!-- Start branding Area -->
-	<section class="blog-area section-gap" id="branding">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="menu-content pb-60 col-lg-10">
-					<div class="title text-center">
-						<h1 class="mb-10 massilia">BRANDING</h1>
-						<p>BI / BX / WEB DESIGN</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6 single-blog">
-					<div class="img_wrap">
-						<img class="img-fluid" src="images/b2.jpg" alt="">
-					</div>
-					<ul class="post-tags post-tags1">
-						<li><a href="https://yang-sj.github.io/CiC/" target="_blank">Website</a></li>
-						<li><a href="sub/cic_bi_guide.html" target="_blank">BI Guide</a></li>
-						<li><a href="sub/cic_bx_guide.html" target="_blank">BX Guide</a></li>
-						<li><a href="sub/cic_web_guide.html" target="_blank">WebGuide</a></li>
-						<li><a href="cic/Ebook/samples/magazine/slider.html" target="_blank">E-Book</a></li>
-					</ul>
-					<a href="#">
-						<h3 class="massilia">CiC</h3>
-					</a>
-					<p>
-						반려인까지 생각한 반려묘 용품 브랜드 <br>
-						고양이 용품 및 의류잡화, 생활용품 등을 판매하는<br>
-						캣 & 휴먼 라이프스타일 브랜드 CiC
-					</p>
-					<p class="post-date">
-						December, 2022
-					</p>
-				</div>
-				<div class="col-lg-6 col-md-6 single-blog">
-					<div class="img_wrap">
-						<img class="img-fluid" src="images/b1.jpg" alt="">
-					</div>
-					<ul class="post-tags post-tags2">
-						<li><a href="https://yang-sj.github.io/Allonge/" target="_blank">Website</a></li>
-						<li><a href="sub/allonge_bi_guide.html" target="_blank">BI Guide</a></li>
-						<li><a href="sub/allonge_bx_guide.html" target="_blank">BX Guide</a></li>
-						<li><a href="sub/allonge_web_guide.html" target="_blank">WebGuide</a></li>
-						<li><a href="sub/allonge_video.html" target="_blank">Video</a></li>
-						<li><a href="allonge/Ebook/samples/magazine/slider.html" target="_blank">E-Book</a></li>
-					</ul>
-					<a href="#">
-						<h3 class="massilia">ALLONGÉ</h3>
-					</a>
-					<p>
-						가늘고 길게 늘리고, 넓게 펼치는 발레동작 <br>
-						알롱제에서 영감을 얻은 <br>
-						데미 파인 주얼리 브랜드 <br>
-					</p>
-					<p class="post-date">
-						February, 2023
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End branding Area -->
-
-
-	<!-- Start gallery Area -->
-	<section class="gallery-area section-gap" id="gallery">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="menu-content pb-60 col-lg-10">
-					<div class="title text-center">
-						<h1 class="mb-10 massilia">ARTWORK</h1>
-						<p>캐릭터 디자인과 BI 디자인, 전단지·현수막·리플릿·쇼핑백 등 편집디자인 작업물입니다.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row"> <!--첫째줄-->
-				<div class="col-lg-4">
-					<a href="images/1530.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/1530.jpg" alt="">
-						
-						</a>
-				</div>
-				<div class="col-lg-4">
-						<a href="images/kin.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/kin.jpg" alt="">
-							
-						</a>
-				</div>
-				<div class="col-lg-4">
-						<a href="images/s1.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/s1.jpg" alt="">
-							
-						</a>
-				</div>
-			</div>
-			<div class="row"> <!--둘째줄-->
-				<div class="col-lg-6">
-					<a href="images/s2.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/s2.jpg" alt="">
-						
-					</a>
-				</div>
-				<div class="col-lg-6">
-					<a href="images/job.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/job.jpg" alt="">
-						
-					</a>
-				</div>
-			</div>
-				
-			<div class="row"> <!--셋째줄-->
-					<div class="col-lg-4">
-						<a href="images/woori.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/woori.jpg" alt="">
-						
-						</a>
-					</div>
-					<div class="col-lg-4">
-						<a href="images/care2.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/care2.jpg" alt="">
-						</a>
-					</div>
-					<div class="col-lg-4">
-						<a href="images/hoho.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/hoho.jpg" alt="">
-						</a>
-					</div>
-			</div>
-			<div class="row"> <!--넷째줄-->
-				<div class="col-lg-6">
-					<a href="images/bok.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/bok.jpg" alt="">
-						
-					</a>
-				</div>
-				<div class="col-lg-6">
-					<a href="images/plus.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/plus.jpg" alt="">
-						
-					</a>
-				</div>
-			</div>
-			<div class="row"> <!--넷째줄-->
-				<div class="col-lg-4">
-					<a href="images/child.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/child.jpg" alt="">
-						
-					</a>
-				</div>
-				<div class="col-lg-4">
-					<a href="images/seogu.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/seogu.jpg" alt="">
-						
-					</a>
-				</div>
-				<div class="col-lg-4">
-					<a href="images/nodam.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/nodam.jpg" alt="">
-						
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4">
-						<a href="images/syg.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/syg.jpg" alt="">
-							
-						</a>
-				</div>
-				<div class="col-lg-4">
-						<a href="images/good.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/good.jpg" alt="">
-							
-						</a>
-				</div>
-				<div class="col-lg-4">
-					<a href="images/smoke.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/smoke.jpg" alt="">
-						
-					</a>
-			</div>
-			</div>
-			<div class="row">
-				
-				<div class="col-lg-4">
-						<a href="images/cm.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/cm.jpg" alt="">
-						
-						</a>
-				</div>
-				<div class="col-lg-4">
-						<a href="images/119.jpg" class="img-pop-home">
-							<img class="img-fluid" src="images/119.jpg" alt="">
-						</a>
-				</div>
-				<div class="col-lg-4">
-					<a href="images/book.jpg" class="img-pop-home">
-						<img class="img-fluid" src="images/book.jpg" alt="">
-					</a>
-			</div>
-			</div>	
-		</div>
-	</section>
-	<!-- End gallery Area -->
-
-
-
-	<!-- Start about-sec Area -->
-	<section class="video-sec-area pb-100 pt-40" id="about">
-		<div class="container">
-			<div class="row justify-content-start align-items-center">
-				<div class="col-lg-6 video-right justify-content-center align-items-center d-flex">
-					<img class="img-fluid" src="images/photo.png" alt="" width="350px">
-					<img class="star" src="images/star.png" alt="" width="50px">
-					<img class="star2" src="images/star2.png" alt="" width="40px">
-					<img class="star3" src="images/star3.png" alt="" width="37px">
-				</div>
-				<div class="col-lg-6 video-left">
-					<h6>Aout me</h6>
-					<h3>멈추지 않고, <br>
-						계속해서 나아가자!
-					</h3>
-					<p><span>안녕하세요. 디자이너 양선주입니다.</span></p>
-					<p>디자인 툴을 다루는 스킬 다음으로<br>고객 니즈 파악, 타 업체 협업으로 <br>
-						디자이너의 소통 능력이 중요하게 취급되고 있습니다. <br>
-						오랜 근무경력을 바탕으로 협업과 <br> 소통에 원할한 디자이너가 될 자신이 있습니다. <br>
-					</p>
-					<h6>Contect Me</h6>
-					<div>
-						<p>부산광역시 거주 <br>
-							+82 10 6683 0526 <br>
-							galaxygaeng@gmail.com</p>
-					</div>
-
-					<!-- <img class="img-fluid" src="images/signature.png" alt=""> -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End about-sec Area -->
-
-	<!-- Start skill Area -->
-	<section class="review-area section-gap" id="skill">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="menu-content pb-60 col-lg-10">
-					<div class="title text-center">
-						<h1 class="mb-10 massilia">MY SKILL</h1>
-						<p>사용 가능 능력</p>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="row">
-						<div class="col-lg-6 col-md-6 single-review">
-							<img src="images/r1.png" alt="">
-							<div class="title d-flex flex-row">
-								<h4>lorem ipusm</h4>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>								
-								</div>
-							</div>
-							<p>
-								Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-							</p>
-						</div>	
-						<div class="col-lg-6 col-md-6 single-review">
-							<img src="images/r2.png" alt="">
-							<div class="title d-flex flex-row">
-								<h4>lorem ipusm</h4>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>								
-								</div>
-							</div>
-							<p>
-								Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-							</p>
-						</div>	
-					</div> -->
-			<div class="row counter-row">
-				<div class="col-lg-2 col-md-4 single-counter">
-					<h1 class="counter massilia">100</h1>
-					<p>Photoshop</p>
-				</div>
-				<div class="col-lg-2 col-md-4 single-counter">
-					<h1 class="counter massilia">100</h1>
-					<p>Illustrator</p>
-				</div>
-				<div class="col-lg-2 col-md-4 single-counter">
-					<h1 class="counter massilia">100</h1>
-					<p>html5&ampCSS3</p>
-				</div>
-				<div class="col-lg-2 col-md-4 single-counter">
-					<h1 class="counter massilia">60</h1>
-					<p>javascript</p>
-				</div>
-				<div class="col-lg-2 col-md-4 single-counter">
-					<h1 class="counter massilia">70</h1>
-					<p>XD</p>
-				</div>
-				<div class="col-lg-2 col-md-4 single-counter">
-					<h1 class="counter massilia">80</h1>
-					<p>Premier</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End skill Area -->
+                    </div>
+                    <ul class="lnb">
+                        <li><a href="sub/about.html">ABOUT</a></li>
+                        <li><a href="sub/ciclife.html">CiC LIFE</a></li>
+                        <li><a href="sub/product.html">PRODUCT</a></li>
+                        <li><a href="sub/store.html">STORE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!--banner_wrap_E-->
+    </div> <!--header_wrap_E-->
+    <div class="mobile_menu">
+        <div class="menu_btn"><a href="javascript:return false;">
+                <img src="images/common/btn/btn_plus.png">
+            </a>
+        </div>
+        <div class="menu_bg"></div>
+        <div class="sidebar_menu">
+            <div class="close_btn"><a href="javascript:return false;">
+                    <img src="images/common/btn/btn_close.png">
+                </a>
+            </div>
+            <div class="menu_wrap">
+                <p><a href="index.html">HOME</a></p>
+                <p><a href="sub/about.html">ABOUT</a></p>
+                <p><a href="sub/ciclife.html">CiC LIFE</p></a>
+                <ul>
+                    <li><a href="sub/ciclife.html">NEWS</a></li>
+                    <li><a href="sub/event.html">EVENT</a></li>
+                    <li><a href="sub/magazine.html">MAGAZINE</a></li>
+                </ul>
+                <p><a href="sub/product.html">PRODUCT</p></a>
+                <ul>
+                    <li><a href="sub/product.html#product_section1_wrap">BESTSELLER</a></li>
+                    <li><a href="sub/product.html#product_section2">LINE-UP</a></li>
+                </ul>
+                <p><a href="sub/store.html">STORE</p></a>
+                <ul>
+                    <li><a href="sub/store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                    <li><a href="sub/store.html#store_section2">CiC MALL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--*header_E-->
+    <!--*section1_S-->
+    <div id="section1">
+        <p class="title">CIC LIFE</p>
+        <ul class="main_cic_life">
+            <li class="main_news">
+                <div class="life_img_wrap">
+                </div>
+                <div class="text_wrap">
+                    <div class="left_text">
+                        <h2>CiC의 새로운 소식을 <br>
+                            알려드립니다</h2>
+                        <h1>NEWS</h1>
+                    </div>
+                    <div class="text_right_btn"><!--(->화살표)-->
+                        <a href="sub/ciclife.html">
+                            <div class="p-index__service--arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13.716"
+                                    viewBox="0 0 16 13.716">
+                                    <path id="arrow-right"
+                                        d="M15.847,71.208,9.922,77.494a.656.656,0,0,1-.439.186.6.6,0,0,1-.4-.148.557.557,0,0,1-.04-.807l5.025-5.331H.593A.577.577,0,0,1,0,70.855a.632.632,0,0,1,.593-.6H14.068L9.043,64.918a.557.557,0,0,1,.04-.807.609.609,0,0,1,.838.039l5.925,6.286A.562.562,0,0,1,15.847,71.208Z"
+                                        transform="translate(0 -63.964)" fill="#fcf9f7"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="main_event">
+                <div class="life_img_wrap">
+                </div>
+                <div class="text_wrap">
+                    <div class="left_text">
+                        <h2>진행 중인 이벤트 & <br>
+                            당첨자 발표</h2>
+                        <h1>EVENT</h1>
+                    </div>
+                    <div class="text_right_btn"><!--(->화살표)-->
+                        <a href="sub/event.html">
+                            <div class="p-index__service--arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13.716"
+                                    viewBox="0 0 16 13.716">
+                                    <path id="arrow-right"
+                                        d="M15.847,71.208,9.922,77.494a.656.656,0,0,1-.439.186.6.6,0,0,1-.4-.148.557.557,0,0,1-.04-.807l5.025-5.331H.593A.577.577,0,0,1,0,70.855a.632.632,0,0,1,.593-.6H14.068L9.043,64.918a.557.557,0,0,1,.04-.807.609.609,0,0,1,.838.039l5.925,6.286A.562.562,0,0,1,15.847,71.208Z"
+                                        transform="translate(0 -63.964)" fill="#fcf9f7"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="main_magazine">
+                <div class="life_img_wrap">
+                </div>
+                <div class="text_wrap">
+                    <div class="left_text">
+                        <h2>반려묘 & 반려인 이야기<br>
+                            월간 CiC 저널</h2>
+                        <h1>MAGAZINE</h1>
+                    </div>
+                    <div class="text_right_btn"><!--(->화살표)-->
+                        <a href="sub/magazine.html">
+                            <div class="p-index__service--arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13.716"
+                                    viewBox="0 0 16 13.716">
+                                    <path id="arrow-right"
+                                        d="M15.847,71.208,9.922,77.494a.656.656,0,0,1-.439.186.6.6,0,0,1-.4-.148.557.557,0,0,1-.04-.807l5.025-5.331H.593A.577.577,0,0,1,0,70.855a.632.632,0,0,1,.593-.6H14.068L9.043,64.918a.557.557,0,0,1,.04-.807.609.609,0,0,1,.838.039l5.925,6.286A.562.562,0,0,1,15.847,71.208Z"
+                                        transform="translate(0 -63.964)" fill="#fcf9f7"></path>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+    </div>
+    <!--*section1_E-->
+    <!--*section2_S-->
+    <div id="section2"> <!--슬라이드배너-->
+        <div class="fade">
+            <div class="fade_1"> <!--배경색,보더-->
+                <div class="fade_box">
+                    <div class="subbanner_img_wrap">
+                    </div>
+                    <div class="subbanner_text_wrap">
+                        <h4>어서와! CiC는 처음이지?</h4>
+                        <h3>고양이의, 고양이에 의한, 고양이를 위한</h3>
+                        <h2>캣 & 휴먼 라이프 스타일 브랜드</h2>
+                        <h1>CiC</h1>
+                        <p>#고양이용품 #팬시용품 #고양이캐릭터상품 <br>
+                            #반려묘용품 #홈데코</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fade_2"> <!--배경색,보더-->
+                <div class="fade_box">
+                    <div class="subbanner_img_wrap">
+                        <div class="subbanner_text_wrap">
+                            <h4>어서와! CiC는 처음이지?</h4>
+                            <h3>고양이를 좋아하는 사람들이라면</h3>
+                            <h2>반려묘가 있든, 없든 누구나</h2>
+                            <h1>CiC</h1>
+                            <p>#고양이용품 #팬시용품 #고양이캐릭터상품 <br>
+                                #반려묘용품 #홈데코</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fade_3"> <!--배경색,보더-->
+                <div class="fade_box">
+                    <div class="subbanner_img_wrap">
+                        <div class="subbanner_text_wrap">
+                            <h4>어서와! CiC는 처음이지?</h4>
+                            <h3>당신의 사랑스러운 고양이를 위해</h3>
+                            <h2>캣 & 휴먼 라이프 스타일 브랜드</h2>
+                            <h1>CiC</h1>
+                            <p>#고양이용품 #팬시용품 #고양이캐릭터상품 <br>
+                                #반려묘용품 #홈데코</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*section2_E-->
+    <!--*section3_S-->
+    <div id="section3_wrap">
+        <div class="section3">
+            <img src="images/common/cat.gif" alt="" class="gif_cat">
+            <p class="title">BESTSELLER</p>
+            <section class="fade1 slider">
+                <div class="sl_wrap">
+                    <a href="sub/product.html#product_section1_wrap">
+                        <div class="product_img">
+                            <img src="images/main/item1.png" alt="">
+                        </div>
+                        <div class="product_title">
+                            <div class="inner_text">
+                                <h2>1</h2>
+                                <h3>Pet Nail Clipper <br>
+                                    반려동물 발톱깎이</h3>
+                                <h4>고양이 및 소형견 발톱관리용 <br>
+                                    미끄럼방지, 스테인레스 스틸 날 설계</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="sl_wrap">
+                    <a href="sub/product.html#product_section1_wrap">
+                        <div class="product_img">
+                            <img src="images/main/item2.png" alt="">
+                        </div>
+                        <div class="product_title">
+                            <div class="inner_text">
+                                <h2>2</h2>
+                                <h3>냥냥냠냠 고양이사료<br>
+                                    영양 밸런스 고양이 사료</h3>
+                                <h4>면역기능과 소화흡수율 개선 <br>
+                                    헤어볼 관리에 도움</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="sl_wrap">
+                    <a href="sub/product.html#product_section1_wrap">
+                        <div class="product_img">
+                            <img src="images/main/item3.png" alt="">
+                        </div>
+                        <div class="product_title">
+                            <div class="inner_text">
+                                <h2>3</h2>
+                                <h3>고양이를 위한 영양간식 <br>
+                                    츄르르</h3>
+                                <h4>No M.S.G, Grain Free <br>
+                                    곤충 단백질 성분 함유</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="sl_wrap">
+                    <a href="sub/product.html#product_section1_wrap">
+                        <div class="product_img">
+                            <img src="images/main/item4.png" alt="">
+                        </div>
+                        <div class="product_title">
+                            <div class="inner_text">
+                                <h2>4</h2>
+                                <h3>cic 로고 장식<br>
+                                    베이직 스냅백</h3>
+                                <h4>심플한 로고 장식 <br>
+                                    고급 16수 코튼 원단</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="sl_wrap">
+                    <a href="sub/product.html#product_section1_wrap">
+                        <div class="product_img">
+                            <img src="images/main/item5.png" alt="">
+                        </div>
+                        <div class="product_title">
+                            <div class="inner_text">
+                                <h2>5</h2>
+                                <h3>아기자기 패턴디자인 <br>
+                                    데일리 마스크</h3>
+                                <h4>3중 필터 일회용 마스크<br>
+                                    국내산 항균 원단</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--*section3_E-->
+    <!--*section4_S-->
+    <div id="section4">
+        <p class="title">FLAGSHIP STORE</p>
+        <div class="main_store">
+            <div class="store_img">
+                <img src="images/main/storefront.png" alt="스토어입구사진">
+            </div>
+            <div class="store_text">
+                <h1>CiC 쇼룸 부산점</h1>
+                <h2>CiC BUSAN SHOWROOM</h2>
+                <h3>CiC의 모든 제품을 편안하게 체험하고 <br>
+                    구매 가능한 CiC 브랜드 경험 공간</h3>
+                <h4>반려동물 동반 출입</h4>
+                <h4>반려동물용 테스터 이용</h4>
+                <h4>신상품 출시 샘플 증정 이벤트</h4>
+                <a href="sub/store.html#store_section1_wrap">
+                    <p class="storepage_link_btn">자세히보기</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--*section4_E-->
 
 
+    <!--*footer_S-->
+    <div id="footer_wrap">
+        <div class="top_btn_box">
+            <a href="#header_wrap"><img src="images/common/btn/btn_top.png" alt="탑버튼" class="animate__jello"></a>
+        </div>
+        <div class="footer_bg_wrap"> <!--footer_배경박스-->
+            <div class="footer_bg">
+            </div>
+            <div class="bg_color">
+            </div>
+            <div class="footer_inner"> <!--가운데-->
+                <div class="footer_inner_left">
+                    <p><img src="images/common/footer/logo_text_w.png" alt="하단로고"></p>
+                    <p>© CiC . All Rights Reserved.</p>
+                    <ul class="sns_link animate__headShake">
+                        <li>
+                            <a href="#">
+                                <img src="images/common/footer/facebook_w.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/catiscute_official/" target="_blank">
+                                <img src="images/common/footer/insta_w.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/common/footer/youtube_w.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_inner_right">
+                    <p><a href="index.html">HOME</a></p>
+                    <p><a href="sub/about.html">ABOUT</a></p>
+                    <p><a href="sub/ciclife.html">CiC LIFE</p></a>
+                    <ul>
+                        <li><a href="sub/ciclife.html">NEWS</a></li>
+                        <li><a href="sub/event.html">EVENT</a></li>
+                        <li><a href="sub/magazine.html">MAGAZINE</a></li>
+                    </ul>
+                    <p><a href="sub/product.html">PRODUCT</p></a>
+                    <ul>
+                        <li><a href="sub/product.html#product_section1_wrap">BESTSELLER</a></li>
+                        <li><a href="sub/product.html#product_section2">LINE-UP</a></li>
+                    </ul>
+                    <p><a href="sub/store.html">STORE</p></a>
+                    <ul>
+                        <li><a href="sub/store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                        <li><a href="sub/store.html#store_section2">CiC MALL</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*footer_E-->
 
-
-	<!-- start footer Area -->
-	<footer class="footer-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-5 col-md-6 col-sm-6">
-					<div class="single-footer-widget">
-
-						<p class="footer-text">
-							Copyright &copy;
-							<script>document.write(new Date().getFullYear());</script> All rights reserved
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-					<div class="single-footer-widget">
-						<div class="footer-social d-flex align-items-center">
-							<a href="https://blog.naver.com/acidtongued" target="_blank">
-								<img src="images/blog.png" alt=""></a>
-							<a href="https://instagram.com/daily___y" target="_blank">
-								<img src="images/instagram.png" alt=""></a>
-							<!--<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- End footer Area -->
-
-	<script src="js/vendor/jquery-2.2.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-		crossorigin="anonymous"></script>
-	<script src="js/vendor/bootstrap.min.js"></script>
-	<script type="text/javascript"
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-	<script src="js/easing.min.js"></script>
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.min.js"></script>
-	<script src="js/jquery.ajaxchimp.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.sticky.js"></script>
-	<script src="js/jquery.nice-select.min.js"></script>
-	<script src="js/parallax.min.js"></script>
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/jquery.counterup.min.js"></script>
-	<script src="js/mail-script.js"></script>
-	<script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CiC</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/common/favicon.png">
+    <!--css-->
+    <link rel="stylesheet" href="../css/style_sub.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/slick-theme.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <!--js-->
+    <script src="../js/jquery-3.6.2.min.js"></script>
+    <script src="../js/slick.js"></script>
+    <script src="../js/sub_script.js"></script>
+    <!--font-->
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css'>
+    <link rel="stylesheet" href="https://use.typekit.net/lvy0wkd.css">
+    <!--나귀엽냐옹-->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'qyc7vpv',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <!--*gnb_S(페이지공통)-->
+    <div id="gnb_wrap"> <!--전체너비-->
+        <div class="gnb_bar"> <!--1320,가운데-->
+            <h1 class="gnb_logo">
+                <a href="../index.html"><img src="../images/common/logo_signature.png" alt="signature_logo"></a>
+            </h1>
+            <ul class="gnb">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="ciclife.html">CiC:LIFE</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="store.html">STORE</a></li>
+            </ul>
+        </div>
+        <div class="submenu_wrap">
+            <div class="submenu">
+                <!--about_sub-->
+                <div class="img_wrap">
+                    <a href="../index.html"><img src="../images/common/cat_head.gif" alt=""></a>
+                </div>
+                <ul> <!--cic life_sub-->
+                    <li><a href="ciclife.html#Board01">NEWS</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="magazine.html">MAGAZINE</a></li>
+                </ul>
+                <ul> <!--product_sub-->
+                    <li><a href="product.html#product_section1_wrap">BESTSELLER</a></li>
+                    <li><a href="product.html#product_section2">LINE-UP</a></li>
+                </ul>
+                <ul> <!--store_sub-->
+                    <li><a href="store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                    <li><a href="store.html#store_section2">CiC MALL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mobile_menu">
+        <div class="menu_btn"><a href="javascript:return false;">
+                <img src="../images/common/btn/btn_plus1.png">
+            </a>
+        </div>
+        <div class="menu_bg"></div>
+        <div class="sidebar_menu">
+            <div class="close_btn"><a href="javascript:return false;">
+                    <img src="../images/common/btn/btn_close1.png">
+                </a>
+            </div>
+            <div class="menu_wrap">
+                <p><a href="../index.html">HOME</a></p>
+                <p><a href="about.html">ABOUT</a></p>
+                <p><a href="ciclife.html">CiC LIFE</p></a>
+                <ul>
+                    <li><a href="ciclife.html">NEWS</a></li>
+                    <li><a href="event.html">EVENT</a></li>
+                    <li><a href="magazine.html">MAGAZINE</a></li>
+                </ul>
+                <p><a href="product.html">PRODUCT</p></a>
+                <ul>
+                    <li><a href="product.html#product_section1_wrap">BESTSELLER</a></li>
+                    <li><a href="product.html#product_section2">LINE-UP</a></li>
+                </ul>
+                <p><a href="store.html">STORE</p></a>
+                <ul>
+                    <li><a href="store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                    <li><a href="store.html#store_section2">CiC MALL</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--*header(페이지별)-->
+    <div id="ciclife_header">
+        <div class="jb-box">
+            <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline"
+                playsinline="playsinline">
+                <source src="../video/cic.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <div id="section">
+        <div class="ciclife_header_inner">
+            <h1 class="subpage_title">CiC LIFE</h1>
+            <ul id="box1">
+                <li class="on"><a href="ciclife.html">NEWS</a></li>
+                <li>l</li>
+                <li><a href="event.html"> EVENT</a></li>
+                <li>l</li>
+                <li><a href="magazine.html">MAGAZINE</a></li>
+            </ul>
+        </div>
+        <div id="Board01" class="box1_1	board">
+            <div class="table_title">
+                <div class="board_no per_10">번호</div>
+                <div class="board_title per_60">제목</div>
+                <div class="board_date per_30">작성일</div>
+            </div>
+            <div class="accordion">
+                <div class="board_no per_10">05</div>
+                <div class="board_title per_60">2023년 설연휴 배송안내</div>
+                <div class="board_date per_30">2023-01-10</div>
+            </div>
+            <div class="panel">
+                <div class="panel_inner">
+                    <img src="../images/ciclife/delivery.jpg" alt="" width="100%" max-width="1200px">
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="board_no per_10">04</div>
+                <div class="board_title per_60">동물자유연대 유기동물 입양캠페인 참여</div>
+                <div class="board_date per_30">2023-01-05</div>
+            </div>
+            <div class="panel">
+                <div class="panel_inner">
+                    <p>
+                        CiC는 동물자유연대가 진행하는 유기동물 입양캠페인의 <br>
+                        취지를 본받아 적극적으로 홍보 활동을 돕고, <br>
+                        매달 판매수익의 일부를 기부하고 있습니다. <br>
+                        <br>
+                        2023년에도 동물들에게 더 나은 삶을 가져다줄 수 있도록, <br>
+                        그들의 처우를 대신 전하고 사회를 변화시킬 수 있도록, <br>
+                        동물자유연대와 함께 나아가겠습니다.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="board_no per_10">03</div>
+                <div class="board_title per_60">무료배송 정책 공지</div>
+                <div class="board_date per_30">2022-11-10</div>
+            </div>
+            <div class="panel">
+                <div class="panel_inner">
+                    <img src="../images/ciclife/delivery_cost.jpg" alt="" width="100%" max-width="1200px">
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="board_no per_10">02</div>
+                <div class="board_title per_60">공식 온라인 스토어 CiC MALL 오픈!</div>
+                <div class="board_date per_30">2022-10-10</div>
+            </div>
+            <div class="panel">
+                <div class="panel_inner">
+                    <p>
+                        성원에 힘입어 온라인몰인 'CiC MALL'을 오픈하였습니다. <br>
+                        <br>
+                        오프라인 플래그쉽 스토어 방문이 힘드셨던 고객분들을 위해 <br>
+                        언제 어디서나 편하게 쇼핑할 수 있는 온라인 몰을 오픈하였습니다. <br>
+                        <br>추후 오프라인 스토어도 전국적으로 확대할 예정입니다.<br>
+                        앞으로도 많은 관심과 사랑 부탁드립니다 :) <br>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="board_no per_10">01</div>
+                <div class="board_title per_60">CiC 공식 홈페이지 오픈</div>
+                <div class="board_date per_30">2022-10-01</div>
+            </div>
+            <div class="panel">
+                <div class="panel_inner">
+                    <p>
+                        고양이용품 및 고양이를 좋아하는 사람들을 위해 <br>
+                        다양한 아이템을 디자인, 판매하는 CAT & HUMAN LIFESTYLE BRAND<br>
+                        CiC(씨아이씨)의 홈페이지에 방문하신걸 환영합니다. <br>
+                        <br>
+                        00년 00월 00일 가오픈 상태로 지속적인 업데이트 진행 중입니다. <br>
+                        앞으로는 본 사이트를 통해 CiC의 새로운 소식을 전해드리겠습니다.<br>
+                        감사합니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--*footer_S-->
+    <div id="footer_wrap">
+        <div class="top_btn_box">
+            <a href="ciclife.html#ciclife_header"><img src="../images/common/btn/btn_top.png" alt="탑버튼"
+                    class="animate__jello"></a>
+        </div>
+        <div class="footer_bg_wrap"> <!--footer_배경박스-->
+            <div class="footer_bg">
+            </div>
+            <div class="bg_color">
+            </div>
+            <div class="footer_inner"> <!--가운데-->
+                <div class="footer_inner_left">
+                    <p><img src="../images/common/footer/logo_text_w.png" alt="하단로고"></p>
+                    <p>© CiC . All Rights Reserved.</p>
+                    <ul class="sns_link animate__headShake">
+                        <li>
+                            <a href="#">
+                                <img src="../images/common/footer/facebook_w.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/catiscute_official/" target="_blank">
+                                <img src="../images/common/footer/insta_w.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../images/common/footer/youtube_w.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_inner_right">
+                    <p><a href="../index.html">HOME</a></p>
+                    <p><a href="about.html">ABOUT</a></p>
+                    <p><a href="ciclife.html">CiC LIFE</p></a>
+                    <ul>
+                        <li><a href="ciclife.html">NEWS</a></li>
+                        <li><a href="event.html">EVENT</a></li>
+                        <li><a href="magazine.html">MAGAZINE</a></li>
+                    </ul>
+                    <p><a href="product.html">PRODUCT</p></a>
+                    <ul>
+                        <li><a href="product.html#product_section1_wrap">BESTSELLER</a></li>
+                        <li><a href="product.html#product_section2">LINE-UP</a></li>
+                    </ul>
+                    <p><a href="store.html">STORE</p></a>
+                    <ul>
+                        <li><a href="store.html#store_section1_wrap">FLAGSHIP STORE</a></li>
+                        <li><a href="store.html#store_section2">CiC MALL</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--*footer_E-->
+</body>
+
+</html>
